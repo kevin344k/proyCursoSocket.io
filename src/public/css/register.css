@@ -1,0 +1,35 @@
+header{
+  width:50px;
+  margin:auto;
+  
+}
+
+main{
+align-items:center;
+  margin:auto;
+}
+.card{
+  width:150px;
+  margin:auto;
+  border:1px solid #dcd5d5;
+  padding:30px;
+}
+.card div:nth-child(1){
+
+  color:red;
+}
+.btn-primary{
+  margin-top:20px;
+  border-radius:20px;
+  border-style:none;
+  padding:18px;
+  background-color:#8c89be;
+  border:1px solid #4522c3;
+  color:#ded9d9;
+  width:100%;
+}
+#username{
+  display:inline-block;
+  margin-top:10px;
+
+}
