@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+body{
+margin:0;
+}
+
+header{
+
+display:flex;
+ justify-content:center;
+  background-color:#c24255;
+  margin-bottom:8px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  color:white;
+  padding-bottom:12px;
+
+
+}
+h1{
+  box-sizing:border-box;
+  margin:0;
+
+  
+}
+main{
+  display:flex;
+  flex-direction:column;
+width:100%;
+align-items: center;
+ 
+  
+}
+#all-messages{
+
+ width:500px;
+  justify-content:center;
+/* overflow:scroll;*/
+box-sizing:border-box;
+  padding:10px;
+  border:1px solid #a3d7b0;
+  margin-bottom:8px;
+ min-height:200px;
+  
+}
+.message{
+ display:flex;
+ margin:10px;
+  display:flex;
+  box-sizing:border-box;
+  align-items:center;
+
+  background-color:#f7f3f3;
+  border-radius:10px;
+}
+.image-container{
+  padding:10px 0px 10px 10px;
+}
+.message div img{
+  width:50px;
+  height:70px;
+  border-radius:10px;
+}
+.message-body{
+  width: calc(100% - 50px);
+  padding:10px;
+  
+  margin: 0px 4px;
+}
+
+
+.username{
+  font-family: 'Alkatra', sans-seri;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.time{
+  font-family: 'Barlow', sans-serif;
+  font-size:12px;
+}
+.send-message{
+  display:flex;
+  width:500px;
+  height:40px;
+
+  justify-content:center;
+  background-color:#c9deca;
+}
+.send-message input{
+font-family: 'Montserrat', sans-serif;
+  width:300px;
+ margin:6px;
+}
+.send-message button{
+  width:80px;
+border-style:none;
+  border-radius:10px;
+ margin:4px;
+  background-color:#258e49;
+  color:#ffffff;
+font-size:20px;
+  margin-left:auto 15px;
+}
+
+.send-message button:hover{
+border:1px solid #258e49;
+   background-color:#ffff;
+   color:#258e49;
+}
+.send-message button:active{
+transform:scale(0.8);
+}

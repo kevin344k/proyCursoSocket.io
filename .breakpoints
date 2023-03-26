@@ -1,0 +1,12 @@
+{
+  "files": {
+    "src/middlewares/isLoggedIn.js": [
+      {
+        "id": "aeda67a4-e751-494b-be54-1f4e119cdf78",
+        "line": 8,
+        "version": 111,
+        "index": 155
+      }
+    ]
+  }
+}

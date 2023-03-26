@@ -5,11 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Michi Chat!</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/chat.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body>
-  <header> <h1>Hola</h1></header>
-   
+  <header> <h1>MyChat</h1></header>
+   <main>
+     <div id="all-messages"></div>
+     
+
+
+
+        <div class="send-message">
+        <input type="text" id="message">
+         <button type="button" id="send-message" class="btn secondary"><i class="bi bi-send-fill"></i></button>
+     </div>
+   </main>
 
   <script src="/socket.io/socket.io.js"></script>
   <script src="js/script.js"></script>

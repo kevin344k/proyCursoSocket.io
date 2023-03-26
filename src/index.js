@@ -2,14 +2,15 @@ const express=require("express")
 const {createServer}=require("http")
 const realTimeServer=require("./realTimeServer")
 const path=require("path")
+const cookieParser=require("cookie-parser")
 
 const app=express()
 const httpServer=createServer(app)
 
 //setting
-app.set("port",process.env.PORT||3000)
+app.set("port",process.env.PORT||6000)
 app.set("views",path.join(__dirname,"views"))
-
+app.use(cookieParser())
 //routes
 
 app.use(require("./routes"))
